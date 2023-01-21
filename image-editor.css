@@ -1,0 +1,90 @@
+#imageEditor {
+    margin:auto;
+    padding:20px;
+    border:1px solid #0f0f0f;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    background-color:#b9b8b6;
+}
+
+#editorContainer {
+    display:block;
+    overflow: auto;
+    width: 800px;
+    height: 500px;
+}
+
+#editor {
+    display:block;
+    margin: auto;
+}
+
+#toolbar {
+    display: block;
+    margin-right: 50px;
+}
+
+#resizer {
+    border:2px dashed rgb(3, 3, 3)
+}
+
+#toolbar button {
+    padding: 10px 20px 10px 20px;
+    color: #000;
+}
+
+
+#upload{
+background-color: rgb(12, 148, 7);
+border-radius: 30px;
+}
+
+#save{
+background-color: rgb(155, 26, 75);
+border-radius: 30px;
+}
+
+#flipHor{
+background-color: rgb(196, 235, 25);
+border-radius: 30px;
+}
+
+#flipVert{
+background-color: rgb(196, 235, 25);
+border-radius: 30px;
+}
+
+#rotateL{
+    background-color: rgb(236, 125, 34);
+    border-radius: 30px;
+    }
+
+#rotateR{
+    background-color:rgb(236, 125, 34);
+    border-radius: 30px;
+}    
+
+#resize{
+    background-color: #2d7a99;
+    border-radius: 30px;
+}               
+
+#greyscale{
+    background-color: #ab9ead;
+    border-radius: 30px;
+}             
+
+.photo-heading{
+    font-size: 40px;
+    font-family:fantasy;
+    padding-right: 77%;
+}
+
+#imageEditor{
+    background-image: url(Icons/istockphoto-1320330053-170667a.jpg);
+}
+
+#container p {
+    font-size: 20px;
+}

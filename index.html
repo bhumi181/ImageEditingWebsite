@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-Editor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="image-editor.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light " style="font-size: 25px; font-family: sans-serif; height:100px; background-color: whitesmoke;">
+
+        <img src="Icons/photo-editor.png" width="105" height="105"
+            class="d-inline-block align-top" alt="">
+        <div class="photo-heading">Photo Editor</div>
+    </nav>
+    <div id="container">
+        <div class="text_box">
+            <div id="imageEditor">
+                <center>
+                <p>Upload Your Image Here!</p>
+                </center>
+                <section id="editorContainer">
+                    <canvas id="editor"></canvas>
+                </section>
+            </div>
+            <section id="toolbar">
+                <button id="upload" class="btn btn-success" title="Upload"><img src="Icons/file-upload.png" alt="" height="46px" width="46px" color="white">Upload</button>
+    
+                <button id="save" class="btn btn-danger" title="Save"><img src="Icons/save (1).png" alt="" height="46px" width="46px" >  Save</button>
+                <br>
+                <br>
+                <button id="flipHor" class="btn btn-info" title="Flip Horizontally"><img src="Icons/resize-horizontal.png" alt="" height="46px" width="46px">
+                    Flip Horizontally</button>
+                <button id="flipVert" class="btn btn-info" title="Flip vertically"><img src="Icons/resize-vertical.png" alt="" height="46px" width="46px"> Flip vertically</button>
+                <br>
+                <br>
+                <button id="rotateL" class="btn btn-info" title="Rotate left"><img src="Icons/rotate-left.png" alt="" height="46px" width="46px"> Rotate Left</button>
+                <button id="rotateR" class="btn btn-info" title="Rotate right"><img src="Icons/rotate-right.png" alt="" height="46px" width="46px"> Rotate Right</button>
+                <br>
+                <br>
+                <button id="resize" class="btn btn-info" title="Resize"><img src="Icons/resize.png" alt="" height="46px" width="46px">  Resize</button>
+                <button id="greyscale" class="btn btn-info" title="Convert to grayscale"><img src="Icons/grayscale.png" alt="" height="46px" width="46px"> Grayscale</button>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
